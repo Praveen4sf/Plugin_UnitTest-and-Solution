@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="business_unit_devops_customentity2" />
+  <EntityRelationship Name="lk_devops_customentity1_createdby" />
+  <EntityRelationship Name="lk_devops_customentity1_modifiedby" />
+  <EntityRelationship Name="lk_devops_customentity2_createdby" />
+  <EntityRelationship Name="lk_devops_customentity2_modifiedby" />
+  <EntityRelationship Name="organization_devops_customentity1" />
+  <EntityRelationship Name="owner_devops_customentity2" />
+  <EntityRelationship Name="team_devops_customentity2" />
+  <EntityRelationship Name="user_devops_customentity2" />
+</EntityRelationships>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e083380a-494d-449f-a07b-055c25ec960a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="devops_name" select="1" icon="1" preview="1">
+        <row name="result" id="devops_customentity1id">
+          <cell name="devops_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="devops_customentity1">
+          <attribute name="devops_customentity1id" />
+          <attribute name="devops_name" />
+          <attribute name="createdon" />
+          <order attribute="devops_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Custom Entity 1 Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CF13C5D0-4C7E-4051-85E9-55B7AE258064}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PluginCode</RootNamespace>
+    <AssemblyName>PluginCode</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>PluginCode.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xrm.Sdk, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Xrm.Sdk.2015.7.1.0.1085\lib\net452\Microsoft.Xrm.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CreateTask.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="APAC Solution\WebResources\devops_Welcome" />
+    <None Include="packages.config" />
+    <None Include="PluginCode.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="APAC Solution\Entities\devops_customentity1\Entity.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity1\FormXml\card\{8ddeb212-a580-432d-9dde-12396f274f49}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity1\FormXml\main\{f994a732-7096-4ab6-af8d-9c145a72a1c1}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity1\FormXml\quick\{8bb932e3-8175-4ceb-84ed-dc5fe02a870c}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity1\RibbonDiff.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity1\SavedQueries\{53dbeaa1-2498-4595-bb1f-559c40c450a3}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity1\SavedQueries\{55e2266f-eb8f-4a5c-b808-94dd55c579ff}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity1\SavedQueries\{5d309f7e-6415-e911-a95c-000d3a59746e}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity1\SavedQueries\{84570371-5cb2-4de4-81ad-8c229e1acf85}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity1\SavedQueries\{8c31d804-e948-4600-ba89-396201d830ad}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity1\SavedQueries\{a4a3f0bf-d7dc-452c-abbb-8059b71f750c}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity1\SavedQueries\{e083380a-494d-449f-a07b-055c25ec960a}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity2\Entity.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity2\FormXml\card\{8fd9e586-5df6-4ec3-991e-70d8c55cc408}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity2\FormXml\main\{6d270792-3349-4d89-b0de-bf3b4a4bdaa0}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity2\FormXml\quick\{951b1d21-4079-417b-9c3f-b51c38650a6e}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity2\RibbonDiff.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity2\SavedQueries\{14d40a1f-48b7-4420-b2fc-fd4ea3d0563f}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity2\SavedQueries\{328edba7-d994-4a16-8b65-a4cf4b2dd3a8}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity2\SavedQueries\{b686d4b6-4c12-4328-9c03-ef5e4ec5f162}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity2\SavedQueries\{d20b0b70-1c8a-4e2a-996c-e4b67facf5f0}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity2\SavedQueries\{e2980792-4f06-4883-9bd6-a0cc8a5e0d38}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity2\SavedQueries\{eaef457c-5ad4-47a2-9357-5efb0a9ec01b}.xml" />
+    <Content Include="APAC Solution\Entities\devops_customentity2\SavedQueries\{eff2f521-2025-e911-a95d-000d3a597152}.xml" />
+    <Content Include="APAC Solution\Other\Customizations.xml" />
+    <Content Include="APAC Solution\Other\Relationships.xml" />
+    <Content Include="APAC Solution\Other\Relationships\BusinessUnit.xml" />
+    <Content Include="APAC Solution\Other\Relationships\Organization.xml" />
+    <Content Include="APAC Solution\Other\Relationships\Owner.xml" />
+    <Content Include="APAC Solution\Other\Relationships\SystemUser.xml" />
+    <Content Include="APAC Solution\Other\Relationships\Team.xml" />
+    <Content Include="APAC Solution\Other\Solution.xml" />
+    <Content Include="APAC Solution\PluginAssemblies\PluginCode-C2F0AFE1-8659-4DE7-B218-828D60E583C3\PluginCode.dll" />
+    <Content Include="APAC Solution\PluginAssemblies\PluginCode-C2F0AFE1-8659-4DE7-B218-828D60E583C3\PluginCode.dll.data.xml" />
+    <Content Include="APAC Solution\SdkMessageProcessingSteps\{8b2d94dd-6c28-e911-a95b-000d3a5972ee}.xml" />
+    <Content Include="APAC Solution\WebResources\devops_Welcome.data.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
