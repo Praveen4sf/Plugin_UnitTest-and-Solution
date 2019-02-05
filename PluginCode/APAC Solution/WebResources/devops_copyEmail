@@ -1,0 +1,6 @@
+function copyEmail()
+{
+   var email = Xrm.Page.getAttribute("devops_emailid").getValue();
+   Xrm.Page.getAttribute("devops_copyofemailid").setValue(email );
+}
+
