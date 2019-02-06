@@ -24,7 +24,7 @@ namespace PluginCode
                     // Create a task activity to follow up with the account customer
                     Entity task = new Entity("task");
 
-                    task["subject"] = "Send e-mail to existing customer.";
+                    task["subject"] = "Call to the Customer";
                     task["description"] = "Follow up with the customer. Check if there are any new issues that need resolution.";
                     task["scheduledstart"] = DateTime.Now;
                     task["scheduledend"] = DateTime.Now.AddDays(2);
