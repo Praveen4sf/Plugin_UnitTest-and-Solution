@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{f994a732-7096-4ab6-af8d-9c145a72a1c1}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{e0d7b5b9-2baf-440f-b8b9-3d0383e9f929}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{524143a6-4640-48e9-b2eb-b11f4826ce3d}" height="auto">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{cea5030c-b950-496b-a78a-e77d87a33610}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="devops_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="devops_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4c5c34c8-3914-bab9-c676-64c8918c323b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="devops_phonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="devops_phonenumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ab48be00-4578-ac92-7bc8-556e6e9329d8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="devops_emailid" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="devops_emailid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{36060360-4b5b-4362-e180-d17bc3c9a057}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="devops_copyofemailid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="devops_copyofemailid" disabled="true" uniqueid="{6ccd0664-2161-8411-3541-65ade1852054}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a534621b-69c4-5c50-3950-d913623b3814}" showlabel="true" locklevel="0" rowspan="3">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="devops_address" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="devops_address" disabled="false" uniqueid="{13145258-4c3b-47d2-e002-db95e54e5c00}" />
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row />
+                    <row>
+                      <cell id="{cac580db-084c-a296-767d-5700ad8aa74c}" showlabel="true" locklevel="0" auto="true" rowspan="3">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="devops_requirement" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="devops_requirement" disabled="false" uniqueid="{e879ee01-b1a2-5288-d7d1-339c189edd0c}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{b84f023d-149e-4fb6-8f50-edf54f4e5cb1}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" rowspan="15" auto="false" id="{0ab8eb33-3841-44b8-98f0-dcf4e8d2f80f}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                          <parameters>
+                            <DefaultTabId>NotesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <formLibraries>
+        <Library name="devops_copyEmail" libraryUniqueId="{17e60599-5dd3-953c-1d88-70a2941e7d00}" />
+      </formLibraries>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="devops_emailid">
+          <Handlers>
+            <Handler functionName="copyEmail" libraryName="devops_copyEmail" handlerUniqueId="{e3cdc5b5-9703-918c-6e65-b2ab8c212170}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

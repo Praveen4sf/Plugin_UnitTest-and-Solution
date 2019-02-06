@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.1669" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>CoreSolution</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="CoreSolution" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>1</Managed>
+    <Publisher>
+      <UniqueName>devops</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="DevOps" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>devops</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>23661</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="devops_customentity1" behavior="0" />
+      <RootComponent type="1" schemaName="devops_customentity2" behavior="0" />
+      <RootComponent type="61" schemaName="devops_copyEmail" behavior="0" />
+      <RootComponent type="61" schemaName="devops_Welcome" behavior="0" />
+      <RootComponent type="62" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_warehouse" displayName="Warehouse" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="msdyn_workorderincident" displayName="Work Order Incident" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="bookableresourcecategory" displayName="Bookable Resource Category" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="msdyn_solutionhistory" displayName="Solution History" solution="SolutionHistoryAPIs (9.1.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="1" schemaName="salesorder" displayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="1" schemaName="msdyn_projectparameter" displayName="Project Parameter" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="1" schemaName="msdyn_projecttaskstatususer" displayName="Project Task Status User" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="msdyn_expense" displayName="Expense" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="9" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="1" schemaName="msdyn_customerasset" displayName="Customer Asset" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="1" schemaName="msdyn_agreement" displayName="Agreement" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="1" schemaName="ratingmodel" displayName="Rating Model" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="13" type="1" schemaName="resco_questionnaire" displayName="Questionnaire" solution="Woodford (11.2.2.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="14" type="1" schemaName="msdyn_rtv" displayName="RTV" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="1" schemaName="msdyn_requirementstatus" displayName="Requirement Status" solution="MicrosoftDynamicsScheduling (2.4.0.48)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="16" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="msdyn_project" displayName="Project" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="1" schemaName="msdyn_organizationalunit" displayName="Organizational Unit" solution="MicrosoftDynamicsScheduling (2.4.0.48)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="19" type="1" schemaName="product" displayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="1" schemaName="msdyn_workorder" displayName="Work Order" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="21" type="1" schemaName="msdyn_postconfig" displayName="Post Configuration" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="22" type="1" schemaName="pricelevel" displayName="Price List" solution="msdynce_ProductManagement (9.0.4.0066)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="1" schemaName="msdyn_priority" displayName="Priority" solution="MicrosoftDynamicsScheduling (2.4.0.48)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="24" type="1" schemaName="msdyn_journal" displayName="Journal" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="25" type="1" schemaName="msdyn_purchaseorder" displayName="Purchase Order" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="26" type="1" schemaName="contract" displayName="Contract" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="27" type="1" schemaName="msdyn_batchjob" displayName="Batch Job" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="28" type="1" schemaName="msdyn_workorderservicetask" displayName="Work Order Service Task" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="29" type="1" schemaName="msdyn_rmareceipt" displayName="RMA Receipt" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="30" type="1" schemaName="bookingstatus" displayName="Booking Status" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="1" schemaName="msdyn_inventoryadjustment" displayName="Inventory Adjustment" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="1" schemaName="msdyn_delegation" displayName="Delegation" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="1" schemaName="msdyn_invoicefrequency" displayName="Invoice Frequency" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="34" type="1" schemaName="msdyn_upgraderun" displayName="Upgrade Run" solution="SolutionUpgradeInfrastructure (2.6.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="35" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="36" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="37" type="1" schemaName="msdyn_expensecategory" displayName="Expense Category" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="38" type="1" schemaName="bulkoperation" displayName="Quick Campaign" solution="msdynce_Marketing (9.0.4.37)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="39" type="1" schemaName="list" displayName="Marketing List" solution="msdynce_Marketing (9.0.4.37)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="40" type="1" schemaName="msdyn_contractlinescheduleofvalue" displayName="Project Contract Line Milestone" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="41" type="1" schemaName="characteristic" displayName="Characteristic" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="42" type="1" schemaName="quote" displayName="Quote" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="43" type="1" schemaName="salesliterature" displayName="Sales Literature" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="44" type="1" schemaName="msdyn_rma" displayName="RMA" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="45" type="1" schemaName="msdyn_postruleconfig" displayName="Post Rule Configuration" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="46" type="1" schemaName="msdyn_timeoffrequest" displayName="Time Off Request" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="47" type="1" schemaName="resco_mobileaudit" displayName="Mobile Audit" solution="Woodford (11.2.2.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="48" type="1" schemaName="msdyn_projectapproval" displayName="Project Approval" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="49" type="1" schemaName="campaign" displayName="Campaign" solution="msdynce_Marketing (9.0.4.37)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="50" type="1" schemaName="msdyn_timeentry" displayName="Time Entry" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="51" type="1" schemaName="competitor" displayName="Competitor" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="52" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="53" type="1" schemaName="bookableresourcebooking" displayName="Bookable Resource Booking" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="54" type="1" schemaName="resco_mobilereport" displayName="Mobile Report" solution="Woodford (11.2.2.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="55" type="1" schemaName="msdyn_schedulingparameter" displayName="Scheduling Parameter" solution="MicrosoftDynamicsScheduling (2.4.0.48)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="56" type="1" schemaName="msdyn_resourcerequest" displayName="Resource Request" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="57" type="1" schemaName="msdyn_resourcerequirement" displayName="Resource Requirement" solution="MicrosoftDynamicsScheduling (2.4.0.48)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="58" type="1" schemaName="invoice" displayName="Invoice" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="59" type="1" schemaName="msdyn_actual" displayName="Actual" solution="MicrosoftDynamicsScheduling (2.4.0.48)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="60" type="1" schemaName="msdyn_transactioncategory" displayName="Transaction Category" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="61" type="1" schemaName="msdyn_purchaseorderreceipt" displayName="Purchase Order Receipt" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="62" type="1" schemaName="service" displayName="Service" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="63" type="1" schemaName="resco_mobileproject" displayName="Mobile Project" solution="Woodford (11.2.2.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="64" type="1" schemaName="msdyn_workhourtemplate" displayName="Work template" solution="MicrosoftDynamicsScheduling (2.4.0.48)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="65" type="1" schemaName="msdyn_inventorytransfer" displayName="Inventory Transfer" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="66" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="67" type="1" schemaName="msdyn_purchaseorderbill" displayName="Purchase Order Bill" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="68" type="1" schemaName="bookableresource" displayName="Bookable Resource" solution="msdynce_Scheduling (9.0.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="69" type="61" schemaName="msdyn_/Resource/Utilization/Pages/ResourceUtilization.htm" displayName="msdyn_/Resource/Utilization/Pages/ResourceUtilization.htm" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="70" type="61" schemaName="resco_MobileCRM/LocationTracking.html" displayName="resco_MobileCRM/LocationTracking.html" solution="Woodford (11.2.2.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="71" type="61" schemaName="msdyn_/imgs/SiteMap/TimeEntry_Web_32.png" displayName="msdyn_/imgs/SiteMap/TimeEntry_Web_32.png" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="72" type="61" schemaName="msdyn_/DedicatePage/DedicatePage.htm" displayName="msdyn_/DedicatePage/DedicatePage.htm" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="73" type="61" schemaName="msdyn_/Icons/Sitemap/ServiceAgreement_32.png" displayName="msdyn_/Icons/Sitemap/ServiceAgreement_32.png" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="74" type="61" schemaName="msdyn_/Icons/Sitemap/FsNavTile.png" displayName="msdyn_/Icons/Sitemap/FsNavTile.png" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="75" type="61" schemaName="msdyn_/fps/Icons/Entity/Calendar_32.png" displayName="msdyn_/fps/Icons/Entity/Calendar_32.png" solution="MicrosoftDynamicsScheduling (2.4.0.48)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="76" type="61" schemaName="msdyn_/Icons/Sitemap/PurchaseOrder_32.png" displayName="msdyn_/Icons/Sitemap/PurchaseOrder_32.png" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="77" type="61" schemaName="resco_MobileCRM/MobileReportsIcon_16x16.png" displayName="resco_MobileCRM/MobileReportsIcon_16x16.png" solution="Woodford (11.2.2.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="78" type="61" schemaName="msdyn_/Icons/Sitemap/Settings_32.png" displayName="msdyn_/Icons/Sitemap/Settings_32.png" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="79" type="61" schemaName="msdyn_/imgs/SiteMap/Activities_32_red_background.png" displayName="msdyn_/imgs/SiteMap/Activities_32_red_background.png" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="80" type="61" schemaName="msdyn_/ProjectTasks/App/Pages/ProjectTasks.htm" displayName="msdyn_/ProjectTasks/App/Pages/ProjectTasks.htm" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="81" type="61" schemaName="msdyn_/Images/Wall_16.png" displayName="msdyn_/Images/Wall_16.png" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="82" type="61" schemaName="msdyn_appmanagementcontrol" displayName="msdyn_appmanagementcontrol" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="83" type="61" schemaName="msdyn_/Icons/Sitemap/CustomerEquipment_32.png" displayName="msdyn_/Icons/Sitemap/CustomerEquipment_32.png" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="84" type="61" schemaName="resco_MobileCRM/Inspections.html" displayName="resco_MobileCRM/Inspections.html" solution="Woodford (11.2.2.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="85" type="61" schemaName="msdyn_/imgs/SiteMap/Expense_Web_32.png" displayName="msdyn_/imgs/SiteMap/Expense_Web_32.png" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="86" type="61" schemaName="resco_MobileCRM/LocationTrackingIcon_16x16.png" displayName="resco_MobileCRM/LocationTrackingIcon_16x16.png" solution="Woodford (11.2.2.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="87" type="61" schemaName="msdyn_/Time/App/Pages/TimeEntry.htm" displayName="msdyn_/Time/App/Pages/TimeEntry.htm" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="88" type="61" schemaName="resco_MobileCRM/WoodfordSiteMapIcon32x32.png" displayName="resco_MobileCRM/WoodfordSiteMapIcon32x32.png" solution="Woodford (11.2.2.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="89" type="61" schemaName="msdyn_/fps/Icons/SchedulingNavTile.png" displayName="msdyn_/fps/Icons/SchedulingNavTile.png" solution="MicrosoftDynamicsScheduling (2.4.0.48)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="90" type="61" schemaName="msdyn_/Icons/Sitemap/Warehouse_32.png" displayName="msdyn_/Icons/Sitemap/Warehouse_32.png" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="91" type="61" schemaName="msdyncrm_/libs/knowledgearticlerouting/knowledgearticleroutingtounifiedmoca.html" displayName="msdyncrm_/libs/knowledgearticlerouting/knowledgearticleroutingtounifiedmoca.html" solution="msdynce_KnowledgeManagement (9.0.1.33)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="92" type="61" schemaName="msdyn_/imgs/SiteMap/Resources_32.png" displayName="msdyn_/imgs/SiteMap/Resources_32.png" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="93" type="61" schemaName="msdyn_/Icons/Sitemap/Calendar_32.png" displayName="msdyn_/Icons/Sitemap/Calendar_32.png" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="94" type="61" schemaName="msdyn_/imgs/NavTile_icon_PSA.png" displayName="msdyn_/imgs/NavTile_icon_PSA.png" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="95" type="61" schemaName="msdyn_/imgs/SiteMap/Currency_32.png" displayName="msdyn_/imgs/SiteMap/Currency_32.png" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="96" type="61" schemaName="msdyn_/imgs/SiteMap/Contract_32.png" displayName="msdyn_/imgs/SiteMap/Contract_32.png" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="97" type="61" schemaName="msdyn_/fps/Icons/Entity/Settings_32.png" displayName="msdyn_/fps/Icons/Entity/Settings_32.png" solution="MicrosoftDynamicsScheduling (2.4.0.48)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="98" type="61" schemaName="msdyn_/Icons/Sitemap/RMA_32.png" displayName="msdyn_/Icons/Sitemap/RMA_32.png" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="99" type="61" schemaName="msdyn_/Icons/Sitemap/Inventory_32.png" displayName="msdyn_/Icons/Sitemap/Inventory_32.png" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="100" type="61" schemaName="resco_MobileCRM/MobileAuditLoad.html" displayName="resco_MobileCRM/MobileAuditLoad.html" solution="Woodford (11.2.2.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="101" type="61" schemaName="resco_MobileCRM/MobileReports.html" displayName="resco_MobileCRM/MobileReports.html" solution="Woodford (11.2.2.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="102" type="61" schemaName="msdyn_/Expense/App/Pages/Expense.htm" displayName="msdyn_/Expense/App/Pages/Expense.htm" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="103" type="61" schemaName="msdyn_/fps/ScheduleBoard/ScheduleBoard.html" displayName="msdyn_/fps/ScheduleBoard/ScheduleBoard.html" solution="MicrosoftDynamicsScheduling (2.4.0.48)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="104" type="61" schemaName="msdyn_/imgs/SiteMap/ResourceAvailability.png" displayName="msdyn_/imgs/SiteMap/ResourceAvailability.png" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="105" type="61" schemaName="msdyn_/fps/ScheduleSetup/ResourceScheduling.html" displayName="msdyn_/fps/ScheduleSetup/ResourceScheduling.html" solution="MicrosoftDynamicsScheduling (2.4.0.48)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="106" type="61" schemaName="resco_MobileCRM/MobileAuditSiteMapIcon_32x32.png" displayName="resco_MobileCRM/MobileAuditSiteMapIcon_32x32.png" solution="Woodford (11.2.2.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="107" type="61" schemaName="msdyn_/PersonalWall.htm" displayName="msdyn_/PersonalWall.htm" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="108" type="61" schemaName="resco_MobileCRM/InspectionsIcon_32x32.png" displayName="resco_MobileCRM/InspectionsIcon_32x32.png" solution="Woodford (11.2.2.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="109" type="61" schemaName="resco_MobileCRM/WoodfordLoad.html" displayName="resco_MobileCRM/WoodfordLoad.html" solution="Woodford (11.2.2.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="110" type="61" schemaName="msdyn_/Icons/Sitemap/WorkOrder_32.png" displayName="msdyn_/Icons/Sitemap/WorkOrder_32.png" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="111" type="61" schemaName="msdyn_/Icons/Sitemap/RTV_32.png" displayName="msdyn_/Icons/Sitemap/RTV_32.png" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
