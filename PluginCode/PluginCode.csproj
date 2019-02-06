@@ -92,7 +92,6 @@
     <Content Include="APAC Solution\Other\Relationships\SystemUser.xml" />
     <Content Include="APAC Solution\Other\Relationships\Team.xml" />
     <Content Include="APAC Solution\Other\Solution.xml" />
-    <Content Include="APAC Solution\PluginAssemblies\PluginCode-C2F0AFE1-8659-4DE7-B218-828D60E583C3\PluginCode.dll" />
     <Content Include="APAC Solution\PluginAssemblies\PluginCode-C2F0AFE1-8659-4DE7-B218-828D60E583C3\PluginCode.dll.data.xml" />
     <Content Include="APAC Solution\SdkMessageProcessingSteps\{8b2d94dd-6c28-e911-a95b-000d3a5972ee}.xml" />
     <Content Include="APAC Solution\WebResources\devops_copyEmail.data.xml" />
