@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SiteMap>
+  <SiteMap>
+    <Area Id="SFA" ResourceId="Area_Sales" DescriptionResourceId="Sales_Description" Icon="/_imgs/sales_24x24.gif" ShowGroups="true" IntroducedVersion="7.0.0.0" ordinalvalue="0">
+      <Group Id="MyWork" ResourceId="Group_MyWork" DescriptionResourceId="My_Work_Description" ToolTipResourseId="My_Work_ToolTip" IntroducedVersion="7.0.0.0" ordinalvalue="0">
+        <SubArea Entity="devops_customentity1" Icon="$webresource:msdyn_/imgs/SiteMap/Contract_32.png" Id="devops_customentity1" AvailableOffline="false" PassParams="false" ordinalvalue="3" solutionaction="Added" />
+        <SubArea Entity="devops_customentity2" Id="devops_customentity2" AvailableOffline="false" PassParams="false" ordinalvalue="4" solutionaction="Added" />
+      </Group>
+    </Area>
+    <Area Id="FieldService" UpdateBreadcrumb="false" Icon="$webresource:msdyn_/Icons/Sitemap/FsNavTile.png" ResourceId="Area_FieldService" DescriptionResourceId="FieldService_Area_Description" ShowGroups="true" ordinalvalue="4">
+      <Group Id="Extensions" ResourceId="Group_Extensions" ordinalvalue="5" solutionaction="Added">
+        <SubArea Id="msdyn_workorderincident" Entity="msdyn_workorderincident" ordinalvalue="0" />
+        <SubArea Id="msdyn_workorderservicetask" Entity="msdyn_workorderservicetask" ordinalvalue="1" />
+      </Group>
+    </Area>
+  </SiteMap>
+</SiteMap>
