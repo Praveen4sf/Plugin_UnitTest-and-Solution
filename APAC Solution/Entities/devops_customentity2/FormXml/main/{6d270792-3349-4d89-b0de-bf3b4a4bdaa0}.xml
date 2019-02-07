@@ -5,7 +5,7 @@
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
       <tabs>
         <tab name="tab_2" id="{71ae58c9-5552-94bb-9300-191783b9c0e9}" IsUserDefined="0" locklevel="0" showlabel="true">
           <labels>
@@ -80,12 +80,12 @@
       <header id="{f5ad4ebf-a070-43af-9647-aea2cedae95d}" columns="111">
         <rows>
           <row>
-            <cell id="{cdc96bbd-51d3-4965-bd02-c20fd9f08d4d}">
+            <cell id="{cdc96bbd-51d3-4965-bd02-c20fd9f08d4d}" showlabel="false">
               <labels>
                 <label description="" languagecode="1033" />
               </labels>
             </cell>
-            <cell id="{122c1268-9f3e-4e1a-b254-19e64d6245f8}">
+            <cell id="{122c1268-9f3e-4e1a-b254-19e64d6245f8}" showlabel="false">
               <labels>
                 <label description="" languagecode="1033" />
               </labels>
@@ -133,7 +133,7 @@
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
-      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Custom Entity2 Main Form" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
       <Description description="A form for this entity." languagecode="1033" />

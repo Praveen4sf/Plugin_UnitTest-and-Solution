@@ -59,7 +59,7 @@
                         <control id="devops_address" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="devops_address" disabled="false" uniqueid="{13145258-4c3b-47d2-e002-db95e54e5c00}" />
                       </cell>
                     </row>
-                    <row></row>
+                    <row />
                     <row />
                     <row>
                       <cell id="{cac580db-084c-a296-767d-5700ad8aa74c}" showlabel="true" locklevel="0" auto="true" rowspan="3">
@@ -160,7 +160,7 @@
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
-      <LocalizedName description="Main Form" languagecode="1033" />
+      <LocalizedName description="Custom Entity1 Main Form" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
       <Description description="A form for this entity." languagecode="1033" />
