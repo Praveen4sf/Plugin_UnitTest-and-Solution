@@ -80,6 +80,8 @@
     <RootComponents>
       <RootComponent type="1" schemaName="devops_customentity1" behavior="0" />
       <RootComponent type="1" schemaName="devops_customentity2" behavior="0" />
+      <RootComponent type="60" id="{6d270792-3349-4d89-b0de-bf3b4a4bdaa0}" behavior="0" />
+      <RootComponent type="60" id="{f994a732-7096-4ab6-af8d-9c145a72a1c1}" behavior="0" />
       <RootComponent type="61" schemaName="devops_copyEmail" behavior="0" />
       <RootComponent type="61" schemaName="devops_Welcome" behavior="0" />
       <RootComponent type="62" behavior="0" />
